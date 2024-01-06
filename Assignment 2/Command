@@ -1,0 +1,4 @@
+pynguin \
+    --project-path ./Assignment2 \
+    --output-path ./Assignment2/Tests \
+    --module-name assignment_2
