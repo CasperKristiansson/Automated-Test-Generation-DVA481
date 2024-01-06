@@ -33,10 +33,6 @@ def test_case_3():
     assert var_0 == "Account not found"
 
 
-def test_case_4():
-    banking_system_0 = module_0.BankingSystem()
-
-
 def test_case_5():
     bool_0 = False
     banking_system_0 = module_0.BankingSystem()
