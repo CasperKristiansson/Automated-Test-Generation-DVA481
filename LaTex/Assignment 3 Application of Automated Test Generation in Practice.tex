@@ -62,7 +62,7 @@
 \maketitle
 
 \section{Comparison of Manually and Automatically Generated Tests}
-The code for both the manually created tests and the automatically generated test can be seen in \ref{sec:Listing}. When comparing the two different created test cases groups I want to mostly focuses on the coverage, functionality and maintainability/readability. If we start of with coverage we can use a tool like pytest-cov\cite{Welcomet80:online} to get the coverage. After manually creating the tests and than running the coverage I was able to on the first try be able to get a score of 100\%. As mentioned in assignment 2 it was seen that the automatically generated test also got a score of 100\% on the coverage.
+The code for both the manually created tests and the automatically generated test can be seen in section \ref{sec:Listing}. When comparing the two different created test cases groups I want to mostly focuses on the coverage, functionality and maintainability/readability. If we start of with coverage we can use a tool like pytest-cov\cite{Welcomet80:online} to get the coverage. After manually creating the tests and than running the coverage I was able to on the first try be able to get a score of 100\%. As mentioned in assignment 2 it was seen that the automatically generated test also got a score of 100\% on the coverage.
 
 A issue I talked about in assignment 2 is that the automatically generated tests sometimes didn't properly test certain functions. For example it never tried to manage actual balances in the bank account beside test case 6 which sent in a negative number. Instead the tests generated sent in Booleans instead of integers. While this works in python because Booleans will be converted to either 0 or 1.
 
